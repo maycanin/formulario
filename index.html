@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+  </head>
+  <body>
+    <h1>Formulário de Contato</h1>
+    <form
+      action="https://formspree.io/f/xzbqoboy"
+      style="display: flex; flex-direction: column"
+      method="POST"
+    >
+      <div>
+        <label>Nome</label>
+        <input type="text" name="nome" />
+      </div>
+      <br />
+      <div>
+        <label>Telefone</label>
+        <input type="tel" name="Telefone" />
+      </div>
+      <br />
+      <div>
+        <label> Email: </label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label> Mensagem: </label>
+        <textarea name="message"></textarea>
+        <br />
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
